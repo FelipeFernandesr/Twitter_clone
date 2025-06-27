@@ -1,10 +1,4 @@
-<?php
-	phpinfo();
-	//ini_set('error_reporting', 'E_STRICT');
-
-	require_once "../vendor/autoload.php";
-
-	$route = new \App\Route;
-	
-
-?>
+     <?php
+     // Redireciona as requisições Vercel para o index.php principal
+     require __DIR__ . '/../public/index.php';
+     ?>
