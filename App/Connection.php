@@ -8,9 +8,7 @@ class Connection {
 		try {
 
 			$conn = new \PDO(
-				"mysql:host=localhost;dbname=twitter_clone;charset=utf8",
-				"root",
-				"" 
+				'pgsql://neondb_owner:npg_UfjJLi5Gl0tQ@ep-proud-sound-acr9ftow-pooler.sa-east-1.aws.neon.tech/twitter_clone?sslmode=require&channel_binding=require' 
 			);
 
 			return $conn;
